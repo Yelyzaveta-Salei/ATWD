@@ -39,8 +39,8 @@ public class UserTest {
     @Test
     public void verifyLoginAction() {
         Map<String, ?> body = Map.of(
-                "username", "ReikhanaVekylova",
-                "password", "121-21-2.4"
+                "username", "YelyzavetaSalei",
+                "password", "121-21-2.28"
         );
 
         Response response = given().body(body).get(USER_LOGIN);
